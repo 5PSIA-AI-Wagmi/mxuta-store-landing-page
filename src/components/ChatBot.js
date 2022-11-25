@@ -8,6 +8,8 @@ export default function ChatBot(props) {
     sendMessage(
       "Hai, selamat datang di Mxuta Store! Ada yang bisa kami bantu?"
     );
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const sendMessage = (text) => {
