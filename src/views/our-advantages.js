@@ -42,7 +42,7 @@ export default function OurAdvantages() {
   };
 
   return (
-    <section className="header relative items-center flex h-screen max-h-860-px">
+    <section className="items-center flex mt-64 md:mt-40 min-h-screen-75">
       <div className="container mx-auto items-center flex flex-wrap text-white">
         <div className="flex flex-col items-center w-full">
           <h2 className="font-bold text-4xl text-center">

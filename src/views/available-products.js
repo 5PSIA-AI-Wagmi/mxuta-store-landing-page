@@ -53,10 +53,10 @@ export default function AvailableProducts() {
   };
 
   return (
-    <section className="header relative items-center flex h-screen max-h-860-px">
+    <section className="items-center flex mt-24 md:mt-40">
       <div className="container mx-auto items-center flex flex-wrap text-white">
         <div className="flex flex-col w-full">
-          <h2 className="text-4xl mb-8">Produk yang tersedia</h2>
+          <h2 className="text-4xl mb-4 md:mb-8 ml-4">Produk yang tersedia</h2>
 
           <div className="w-full flex flex-row flex-wrap t">
             {availableProducts.map((product, index) => (

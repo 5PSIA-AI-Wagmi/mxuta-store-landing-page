@@ -8,6 +8,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import OurAdvantages from "./our-advantages";
 import AvailableProducts from "./available-products";
+import ContactUs from "./contact-us";
 
 export default function Index() {
   return (
@@ -65,6 +66,8 @@ export default function Index() {
       <OurAdvantages />
 
       <AvailableProducts />
+
+      <ContactUs />
 
       {/* <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
