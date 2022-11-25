@@ -25,14 +25,10 @@ export default function OurAdvantages() {
   ];
 
   const AdvantageCard = (props) => {
-    const { icon, title, description, index } = props;
-
-    const hasMargin = index !== 0 && index !== advantages.length - 1;
+    const { icon, title, description } = props;
 
     return (
-      <div
-        className={`xs:w-12/12 md:w-6/12 lg:w-4/12 ${hasMargin ? "mx-8" : ""}`}
-      >
+      <div className="xs:w-12/12 md:w-6/12 lg:w-4/12 p-4">
         <div className="bg-gray flex flex-col p-8 rounded-lg items-center h-full">
           <div className="bg-primary text-white p-5 rounded-full text-3xl">
             {icon}
@@ -60,13 +56,12 @@ export default function OurAdvantages() {
             transaksi di toko kami.
           </p>
 
-          <div className="w-full flex flex-row">
+          <div className="w-full flex flex-row flex-wrap">
             {advantages.map((advantage, index) => (
               <AdvantageCard
                 icon={advantage.icon}
                 title={advantage.title}
                 description={advantage.description}
-                index={index}
                 key={index}
               />
             ))}

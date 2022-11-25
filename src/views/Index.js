@@ -7,6 +7,7 @@ import ChatBot from "components/ChatBot.js";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import OurAdvantages from "./our-advantages";
+import AvailableProducts from "./available-products";
 
 export default function Index() {
   return (
@@ -37,6 +38,7 @@ export default function Index() {
                   href="https://mxutastore.my.id/"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-primary uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  rel="noreferrer"
                 >
                   Top Up Sekarang
                 </a>
@@ -44,6 +46,7 @@ export default function Index() {
                   href="https://api.whatsapp.com/send/?phone=62895385155929&text&type=phone_number&app_absent=0"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Join Reseller
                 </a>
@@ -60,6 +63,8 @@ export default function Index() {
       </section>
 
       <OurAdvantages />
+
+      <AvailableProducts />
 
       {/* <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
