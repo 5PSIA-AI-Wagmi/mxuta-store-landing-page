@@ -69,6 +69,8 @@ export default function Index() {
 
       <ContactUs />
 
+      <Footer />
+
       {/* <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
@@ -674,7 +676,6 @@ export default function Index() {
           </div>
         </div>
       </section> */}
-      {/* <Footer /> */}
     </>
   );
 }

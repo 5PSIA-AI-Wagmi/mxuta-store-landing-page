@@ -1,7 +1,3 @@
-import { BiTimer } from "react-icons/bi";
-import { MdSavings } from "react-icons/md";
-import { RiShieldCheckFill } from "react-icons/ri";
-
 export default function AvailableProducts() {
   const availableProducts = [
     {
