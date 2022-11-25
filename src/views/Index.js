@@ -6,6 +6,7 @@ import ChatBot from "components/ChatBot.js";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import OurAdvantages from "./our-advantages";
 
 export default function Index() {
   return (
@@ -57,6 +58,8 @@ export default function Index() {
           alt="..."
         />
       </section>
+
+      <OurAdvantages />
 
       {/* <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
         <div

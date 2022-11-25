@@ -71,7 +71,7 @@ Use a better box model (opinionated).
   background-color: #0a0e24;
 }
 .bg-gray {
-  background-color: #13162d;
+  background-color: #13152d;
 }
 
 .text-secondary {
@@ -1751,6 +1751,21 @@ select {
   margin-bottom: 1.5rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1868,8 +1883,16 @@ select {
   margin-top: 4rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mt-24 {
