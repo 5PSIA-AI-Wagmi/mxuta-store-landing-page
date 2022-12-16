@@ -1,0 +1,7 @@
+POST https://mxutachatbot.up.railway.app/predict
+content-type: application/json
+
+{
+  "message": "hi"
+}
+
